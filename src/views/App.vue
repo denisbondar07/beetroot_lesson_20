@@ -7,11 +7,10 @@
       </div>
       <social-menu />
     </header>
-       <router-view />
+       <router-view></router-view>
        <Footer />
        <footer-social />
-    
-  </div>
+    </div> 
 </template>
 
 <script>
@@ -21,9 +20,13 @@ import Config from "@/assets/js/config.json";
 import Footer from '@/components/footer/Footer.vue';
 import FooterSocial from '@/components/footer/FooterSocial.vue';
 
+
 export default {
-   name: 'app',
-   components: {
+  name: 'app',
+  props:{
+    
+  },
+  components: {
     Navigation,
     SocialMenu,
     Footer,
@@ -35,16 +38,14 @@ export default {
     }
   }
 }
-
 </script>
 
-<style>
-
- body{
+<style lang="scss"  >
+body{
   margin: 0;
   padding: 0;
 }
- #app {
+#app {
   display: flex;
   flex-direction: column;
   overflow: hidden; 
@@ -52,7 +53,7 @@ export default {
   padding: 0; 
   font-family: 'Poppins', sans-serif;
 }
- header{
+header{
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -60,15 +61,14 @@ export default {
   background-color: #EFEFEF;
   overflow: hidden;
 }
- .nav{
+.nav{
   width: 400px;
   margin:0 auto;
   display: flex;
   justify-content: space-between;
 }
- img{
+img{
   padding-top: 10px;
 }
-
 
 </style>

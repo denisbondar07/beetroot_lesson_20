@@ -1,0 +1,32 @@
+{
+    "socialMenu": [
+      {
+        "url": "#facebook",
+        "iconClassName": "fas fa-search"
+      },
+      {
+        "url": "#twitter",
+        "iconClassName": "far fa-heart"
+      },
+      {
+        "url": "https://fontawesome.com/icons/shopping-basket?style=duotone",
+        "iconClassName": "fas fa-shopping-cart"
+      }
+     
+    ],
+    "footerSocial": [
+      {
+        "url":"https://www.youtube.com/",
+        "iconClassName":"fab fa-youtube"
+      },
+      {
+        "url":"https://www.facebook.com/",
+        "iconClassName":"fab fa-facebook-square"
+      },
+      {
+        "url":"https://www.instagram.com",
+        "iconClassName":"fab fa-instagram"
+      }
+    ]
+    
+  }
